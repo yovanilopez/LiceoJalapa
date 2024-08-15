@@ -1,0 +1,35 @@
+
+
+.navbar{
+   
+   top:0;
+   grid-template-columns: 1fr auto;
+   align-items: center;
+   font-family: sans-serif;
+   position:fixed;
+   width:100%;
+   z-index: 1000;
+   font-size: 25px;
+}
+
+
+.navbar .container-fluid{
+   display:grid;
+   grid-template-columns: repeat(9,auto);
+  
+}
+.navbar .container-fluid div{
+   padding: 10px 20px;
+}
+
+.navbar .container-fluid {
+   cursor: pointer;
+   background:#CDDC39;
+}
+
+ .dropdown-menu li a:hover .submenu{
+   display: block;
+   
+ }
+
+ 
