@@ -4,35 +4,108 @@
 
 body
 { 
-    background-color:rgb(137, 137, 143);
-    margin-top: 0px;
-    position: relative;
+    background-color:rgb(77, 179, 192);
+    margin: 0;
+    padding: 0;
+    
  
 }
 
+.header
 
-.main-header {
+{
+ 
+  background-size: cover;
+ background-attachment: fixed;
+  height: 475px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+
+.header img{
+    top: 0;
+    left: 0;
+    height: 445px;
+    width: 100%;
+ 
+}
+
+.texto{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+    
+}
+
+.texto img{
+    height: 250px;
+    width: 250px;
     text-align: center;
     position: relative;
-    background: url(https://i.ibb.co/0mWNTFh/Whats-App-Image-2024-08-14-at-12-59-22-PM.jpg);
-    background-size:cover;
- background-attachment: fixed;
-    height: 500px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    opacity: .9;
+    
+}
+    .slider-frame {
+     width: 100%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+    background: rgba(255, 255, 255, 0.801);
+       
+    }
+    
+    .slider-frame ul {
+        display: flex;
+        padding-left: 0%;
+        width: 500%;
+        opacity: .7;
+        
+        animation: slide 20s infinite alternate ease-in-out;
+    }
+    
+    .slider-frame li {
+        width: 100%;
+        list-style: none;
+        
+      
     
     }
-    .background-overlay {
-      
-        background: rgba(214, 203, 203, 0.5);
-        top: 0;
-        left: 0;
+    
+    .slider-frame img {
         width: 100%;
-        height: 100%;
+        opacity: .7;
         
     }
+    
+    @keyframes slide {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        30% {margin-left: -150%;}
+        45% {margin-left: -150%;}
+        
+        50% {margin-left: -250%;}
+        70% {margin-left: -250%;}
+        
+        75% {margin-left: -380%;}
+        100% {margin-left: -380%;}
+    }
+    
+    .texto .wave {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+     
+  
     .secction1
     {
       background:url(https://i.ibb.co/0mWNTFh/Whats-App-Image-2024-08-14-at-12-59-22-PM.jpg);
@@ -59,22 +132,56 @@ body
         font-size: 35px;
         font-family: "Amatic SC", sans-serif;
         font-weight: bolder;
-        padding-top: 50px;
-
-
-
-
+        padding-top: 45px
     }
 
-    .secction2 {
-      
-       background: url("https://i.ibb.co/pL536XY/Whats-App-Image-2024-10-18-at-10-06-18-AM-1.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        height: 450px;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
+  
 
+
+    .secction3 {
+      
+        background: url("https://i.ibb.co/pL536XY/Whats-App-Image-2024-10-18-at-10-06-18-AM-1.jpg");
+         background-size: cover;
+         background-attachment: fixed;
+         height: 450px;
+         width: 100%;
+         text-align: center;
+         justify-content: center;
+         flex-direction: column;
+         text-align: center;
+ 
+     }
+     .secction3 .row .col{
+      
+        text-align: left;
+        font-size: 25px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bolder;
+        padding-top: 0px
+    
+        
+    }
+
+        
+    .secction4 {
+      
+        background: url("https://i.ibb.co/pL536XY/Whats-App-Image-2024-10-18-at-10-06-18-AM-1.jpg");
+         background-size: cover;
+         background-attachment: fixed;
+         height: 450px;
+         width: 100%;
+         text-align: center;
+         justify-content: center;
+         flex-direction: column;
+ 
+     }
+
+     .secction4  .row .col{
+      
+        text-align: left;
+        font-size: 23px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: bolder;
+        padding-top: 0px;
+    
     }
