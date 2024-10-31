@@ -1,5 +1,4 @@
-
-.body{
+.body {
 
     margin: 0%;
     padding: 0%;
@@ -18,72 +17,124 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
 
 
 }
 
 
 .slider-frame {
-       
+
     width: 100%;
-   height: 475px;
+    height: 475px;
+
+    margin: 50px auto 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.801);
+    border-color: blue;
+
+
+
+}
+
+.slider-frame ul {
+
+    display: flex;
+    padding-left: 0%;
+    width: 400%;
+
+    padding-top: 30px;
+    animation: slide 20s infinite alternate ease-in-out;
+
+
+}
+
+.slider-frame li {
+
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+
+
+}
+
+.slider-frame img {
+    width: 100%;
+    height: 465px;
+    opacity: .8;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+.secction2 {
+    text-align: center;
+    background-color:rgb(0, 0, 116);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
    
-   margin:50px auto 0;
-   overflow: hidden;
-   background: rgba(255, 255, 255, 0.801);
-   border-color: blue;
+}
+
+
   
 
-   
-   }
-   
-   .slider-frame ul {
-  
-       display: flex;
-       padding-left: 0%;
-       width: 400%;
-      
-       padding-top: 30px;
-       animation: slide 20s infinite alternate ease-in-out;
-      
-      
-   }
-   
-   .slider-frame li {
-    
-       width: 100%;
-       list-style: none;
-       align-items: center;
-       justify-content: center;
-       flex-direction: column;
-   
-       
-   
-     
-   
-   }
-   
-   .slider-frame img {
-       width: 100%;
-       height: 465px;
-       opacity: .8;
-       background-size: cover;
-       background-attachment: fixed;
-     
-      
-   }
-   
-   @keyframes slide {
-       0% {margin-left: 0;}
-       20% {margin-left: 0;}
-       
-       25% {margin-left: -100%;}
-       45% {margin-left: -100%;}
-       
-       50% {margin-left: -200%;}
-       70% {margin-left: -200%;}
-       
-       75% {margin-left: -300%;}
-       100% {margin-left: -300%;}
-   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
