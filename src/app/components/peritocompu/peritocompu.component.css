@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(77, 179, 192);
+    background-color: rgb(16, 16, 77);
+
     margin: 0;
     padding: 0;
 }
@@ -15,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 
 
 }
@@ -60,7 +62,7 @@ body {
 .slider-frame ul {
     display: flex;
     padding-left: 0%;
-    width: 500%;
+    width: 400%;
     opacity: .7;
     animation: slide 20s infinite alternate ease-in-out;
 }
@@ -80,37 +82,17 @@ body {
 }
 
 @keyframes slide {
-    0% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: 0;
-    }
-
-    30% {
-        margin-left: -150%;
-    }
-
-    45% {
-        margin-left: -150%;
-    }
-
-    50% {
-        margin-left: -250%;
-    }
-
-    70% {
-        margin-left: -250%;
-    }
-
-    75% {
-        margin-left: -380%;
-    }
-
-    100% {
-        margin-left: -380%;
-    }
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
 .wave {
     position: relative;
@@ -122,6 +104,7 @@ body {
 .secction1 {
     text-align: center;
     position: relative;
+   
     background: url(https://i.ibb.co/dPYMntz/Whats-App-Image-2024-07-01-at-11-22-58-AM.jpg);
     background-size: cover;
     height: 450px;

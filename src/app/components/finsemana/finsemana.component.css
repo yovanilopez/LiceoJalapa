@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(16, 16, 77);
+    margin: 0;
+    padding: 0;
+    
+}
+.header
+    {
+ 
+        background-size: cover;
+        background-attachment: fixed;
+        height: 470px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+      
+    }
+    .header img{
+    
+        top: 0;
+        left: 0;
+        height: 445px;
+        width: 100%;
+     
+    }
+    
+    .texto{
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        
+        
+    }
+    
+    .texto img{
+        height: 250px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        opacity: .9;
+        
+    }
+    .slider-frame {
+       
+        width: 100%;
+       height: auto;
+       margin:50px auto 0;
+       overflow: hidden;
+       background: rgba(255, 255, 255, 0.801);
+       
+       }
+       
+       .slider-frame ul {
+      
+           display: flex;
+           padding-left: 0%;
+           width: 400%;
+           opacity: .7;
+          
+           animation: slide 20s infinite alternate ease-in-out;
+       }
+       
+       .slider-frame li {
+        
+           width: 100%;
+           list-style: none;
+           
+         
+       
+       }
+       
+       .slider-frame img {
+           width: 100%;
+           opacity: .7;
+           background-size: cover;
+           background-attachment: fixed;
+           
+       }
+       
+       @keyframes slide {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+        
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+        
+        75% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+    }

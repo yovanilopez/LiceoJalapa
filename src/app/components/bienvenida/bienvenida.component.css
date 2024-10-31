@@ -1,314 +1,89 @@
 
-body
-{ 
-    background-color:rgb(0, 128, 128);
-    
-    margin-top: 0px;
-    position: relative;
-    
+.body{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+
+
+.header {
+
+    background-size: cover;
+    background-attachment: fixed;
+    height: 475px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
    
-   
-} 
-    
-   
-.main-header {
- position: relative;
- background: url(https://i.ibb.co/RT9vYNj/banda.jpg);
- background-size:cover;
- background-attachment: fixed;
- height: 500px;
- width: 100%;
- align-items: center;
- justify-content: center;
- flex-direction: column;
 
 
 }
-    
-.background-overlay {
-   position: absolute;
-   background: rgba(48, 51, 107,.6);
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
+
+
+.slider-frame {
+       
+    width: 100%;
+   height: 475px;
    
-}
-
-
-    .container1 .col img
-    { 
-        height: 100%;
-        width: 100%;
-        border-radius: 80%;
-        opacity: .9;
-        align-items: center;
- justify-content: center;
-       
-    } 
-    
-
-    .container1 .row .col
-    { 
-        text-align: center;
-       
-        font-family:italic;
-        color: white;
-        font-size: 19px;
-        height: 100%;
-        width: 100%;
-        
-       
-       
-    } 
-       /*  quienes somos */
-    .container1 .row .col h1
-    { 
-       animation: wave 2s infinite;
-       font-size: 6rem;
-       font-family: "Zeyada", cursive;
-       font-weight: 800;
-       margin-bottom: 15%;
-       
-    } 
-    
-    @keyframes wave {
-        0%{
-           transform: rotate(0deg);
-
-        }
-        25%{
-           transform: rotate(5deg);
-           
-        }
-        50%{
-           transform: rotate(0deg);
-           
-        }
-        75%{
-           transform: rotate(-5deg);
-           
-        }
-        100%{
-           transform: rotate(0deg);
-           
-        }
-  }
-
+   margin:50px auto 0;
+   overflow: hidden;
+   background: rgba(255, 255, 255, 0.801);
+   border-color: blue;
   
-  .container2{
 
-   height: 200px;
-   width: 100%;
-   align-items: center;
- justify-content: center;
- 
-
-}
-
-  
-    .container2 .col
-
-    { 
-        text-align: center;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: white;
-        font-size: 19px; 
-        height: 100%;
-        width: 100%; 
-
-    } 
-
-    /*  virtud y ciencia*/
-    .container2 .col h1{
-
-    animation: wave  2s infinite ;
-    font-size: 8rem;
-    font-family: "Zeyada", cursive;
-       font-weight: 800;
-       color: white;
    
-    }
-
-    @keyframes wave {
-        0%{
-           transform: rotate(0deg);
-
-        }
-        25%{
-           transform: rotate(5deg);
-           
-        }
-        50%{
-           transform: rotate(0deg);
-           
-        }
-        75%{
-           transform: rotate(-5deg);
-           
-        }
-        100%{
-           transform: rotate(0deg);
-           
-        }
-  }
-
-    .container3
-    { 
-        background-color:wheat;
-         height: 300px;
-         width: 100%;
-         flex-direction: column;
-         position: relative;
-         align-items: center;
-         
-    } 
-
-    .container3 .col img
-
-    { 
-        height: 300px;
-        width: 300px ;
-        border-radius: 50%;
-       
-       
-    } 
-    
-    /*  fundadores */
-     .container3 .row .col h4
-
-    { 
-    
-        font-family:italic;
-        color: white;
-        font-size: 7rem; 
-      animation: wave 2s infinite;
-      font-family: "Zeyada", cursive;
-       font-weight: 800;
-       
-    } 
-
-
-
-    @keyframes wave {
-         0%{
-            transform: rotate(0deg);
-
-         }
-         25%{
-            transform: rotate(5deg);
-            
-         }
-         50%{
-            transform: rotate(0deg);
-            
-         }
-         75%{
-            transform: rotate(-5deg);
-            
-         }
-         100%{
-            transform: rotate(0deg);
-            
-         }
-    }
-
-
-
-
-
-    .container4 .row .col { 
-       
-        font-family:italic;
-        color: white;
-        font-size: 20px;
-        text-align:left;
-        text-align: justify;
-        text-align: left;
-       
+   }
+   
+   .slider-frame ul {
+  
+       display: flex;
+       padding-left: 0%;
+       width: 400%;
       
-    } 
-     /*  vision */
-    .container4 .row .col h1{ 
-        
-        text-align: center;
-        font-size: 12rem;
-        font-family: "Zeyada", cursive;
-       font-weight: 800;
-        animation: wave 2s infinite;
-        padding-bottom: 15%;
-    } 
-    @keyframes wave {
-        0%{
-           transform: rotate(0deg);
-
-        }
-        25%{
-           transform: rotate(5deg);
-           
-        }
-        50%{
-           transform: rotate(0deg);
-           
-        }
-        75%{
-           transform: rotate(-5deg);
-           
-        }
-        100%{
-           transform: rotate(0deg);
-           
-        }
-  }
-
-    .container5 .row .col { 
-       
-        font-family:italic;
-        color: white;
-        font-size: 20px;
-        text-align: justify;
-        text-align: right;
+       padding-top: 30px;
+       animation: slide 20s infinite alternate ease-in-out;
       
-    } 
-    .container5 .row .col h1{ 
-        
-        text-align: center;
-        font-size: 12rem;
-        font-family: "Zeyada", cursive;
-        font-weight: 800;
-        animation: wave 2s infinite;
-    } 
-    @keyframes wave {
-        0%{
-           transform: rotate(0deg);
-
-        }
-        25%{
-           transform: rotate(5deg);
-           
-        }
-        50%{
-           transform: rotate(0deg);
-           
-        }
-        75%{
-           transform: rotate(-5deg);
-           
-        }
-        100%{
-           transform: rotate(0deg);
-           
-        }
-  }
-
-
-    .container6 .col img
-
-    { 
-        height: 300px;
-        width: 300px ;
-        border-radius: 30%;
-        opacity: .9;
+      
+   }
+   
+   .slider-frame li {
     
-    } 
-
+       width: 100%;
+       list-style: none;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   
+       
+   
+     
+   
+   }
+   
+   .slider-frame img {
+       width: 100%;
+       height: 465px;
+       opacity: .8;
+       background-size: cover;
+       background-attachment: fixed;
+     
+      
+   }
+   
+   @keyframes slide {
+       0% {margin-left: 0;}
+       20% {margin-left: 0;}
+       
+       25% {margin-left: -100%;}
+       45% {margin-left: -100%;}
+       
+       50% {margin-left: -200%;}
+       70% {margin-left: -200%;}
+       
+       75% {margin-left: -300%;}
+       100% {margin-left: -300%;}
+   }
