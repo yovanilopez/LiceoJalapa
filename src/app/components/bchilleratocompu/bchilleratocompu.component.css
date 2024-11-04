@@ -16,7 +16,7 @@ body {
     justify-content: center;
     flex-direction: column;
     
-
+  }
     .background-overlay {
       
       background: rgba(255,255,255,0.5);
@@ -204,4 +204,3 @@ background:url(https://i.ibb.co/44zYpgv/Whats-App-Image-2024-05-20-at-1-46-07-PM
 
 
 
-}
