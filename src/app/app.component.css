@@ -3,7 +3,7 @@
 
     
 
-    .fixed-nav-bar { position: absolute; 
+    li { position: absolute; 
       top: 0; 
       left: 0;
        z-index: 9999; 
@@ -14,7 +14,7 @@
       }
 
 
-    .menu {
+    .nav .li{
       display: flex;
       flex-direction: column;
       list-style: none;
@@ -23,18 +23,18 @@
       font-size: 20px;
     }
 
-    .menu li {
+    .fixed-nav-bar li {
       border-bottom: 1px solid #9aa046;
     }
 
-    .menu li a {
+    .fixed-nav-bar li a {
       color: white;
       padding: 15px;
       display: block;
       text-decoration: none;
     }
 
-    .menu li a:hover {
+    .fixed-nav-bar li a:hover {
       background-color: #a0a145;
     }
 
@@ -65,11 +65,11 @@
         display: none;
       }
 
-      .menu {
+      .fixed-nav-bar {
         flex-direction: row;
       }
 
-      .menu li {
+      .fixed-nav-bar li {
         position: relative;
         border-bottom: none;
       }
@@ -95,7 +95,7 @@
         display: block;
       }
 
-      .menu.collapsed {
+      .fixed-nav-bar .collapsed {
         display: none;
       }
     }
