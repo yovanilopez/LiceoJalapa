@@ -51,7 +51,7 @@
       cursor: pointer;
     }
 
-    .hamburger {
+    .fixed-nav-bar {
       display: none;
       background-color: #333;
       color: white;
