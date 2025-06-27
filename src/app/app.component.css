@@ -14,7 +14,7 @@
 
 
 .navbar .container-fluid{
-
+   display:grid;
    grid-template-columns: repeat(9,auto);
    
   
