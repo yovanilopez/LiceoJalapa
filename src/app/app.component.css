@@ -16,15 +16,14 @@
 .navbar .container-fluid{
    display:grid;
    grid-template-columns: repeat(9,auto);
-   cursor: pointer;
-   background:#CDDC39;
+   
   
 }
 .navbar .container-fluid div{
    padding: 10px 20px;
 }
 
-.navbar .container-fluid{
+.div .container-fluid{
    cursor: pointer;
    background:#CDDC39;
 }
