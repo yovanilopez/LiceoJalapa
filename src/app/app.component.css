@@ -4,7 +4,7 @@
    
    top:0;
    grid-template-columns: 1fr auto;
-   align-items: center;
+   align-items: left;
    font-family: sans-serif;
    position:fixed;
    width:100%;
