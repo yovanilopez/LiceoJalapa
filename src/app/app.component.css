@@ -2,15 +2,14 @@
 
 .navbar{
    
-   top:0;
+   top:0%;
    grid-template-columns: 1fr auto;
    align-items: center;
    font-family: sans-serif;
    position:fixed;
    width:100%;
    z-index: 1000;
-   font-size: auto;
-   
+   font-size: 25px;
 }
 
 
