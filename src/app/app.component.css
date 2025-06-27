@@ -91,7 +91,7 @@
     }
 
     @media (max-width: 767px) {
-      .hamburger {
+      .fixed-nav-bar {
         display: block;
       }
 
