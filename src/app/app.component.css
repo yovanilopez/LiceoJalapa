@@ -24,7 +24,7 @@ nav {
     }
 
     .menu li {
-      border-bottom: 1px solid #444;
+      border-bottom: 1px solid #9aa046;
     }
 
     .menu li a {
@@ -35,7 +35,7 @@ nav {
     }
 
     .menu li a:hover {
-      background-color: #444;
+      background-color: #a0a145;
     }
 
     .submenu {
