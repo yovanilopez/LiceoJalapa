@@ -28,7 +28,7 @@ nav {
     }
 
     .menu li a {
-      color: black;
+      color: white;
       padding: 15px;
       display: block;
       text-decoration: none;
@@ -54,7 +54,7 @@ nav {
     .hamburger {
       display: none;
       background-color: #333;
-      color: black;
+      color: white;
       padding: 15px;
       cursor: pointer;
       text-align: right;
