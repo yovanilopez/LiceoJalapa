@@ -23,10 +23,8 @@
    padding: 10px 20px;
 }
 
-.nav .div .container-fluid{
-   cursor: pointer;
-   background:#CDDC39;
-}
+
+
 
  .dropdown-menu li a:hover .submenu{
    display: block;
