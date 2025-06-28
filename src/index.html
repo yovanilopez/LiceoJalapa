@@ -14,51 +14,31 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
- 
+
 </head>
 
 <body>
 
-
-<nav>
-    <ul class="nav nav-tabs">
-     
-     <li><a href="#HISTORIA" style="font-size: 25px;">LICEO JALAPA</a></li>
-    
-     <li class="nav-item">
-      <a class="nav-link" href="#HISTORIA">HISTORIA</a>
-     </li>
-
-       <li class="nav-item">
-      <a class="nav-link" href="#VISION MISION">VISION</a>
-     </li>
-
-      <li class="nav-item">
-      <a class="nav-link" href="#VISION MISION">MISION</a>
-     </li>
-
-       <li class="nav-item">
-      <a class="nav-link" href="#VALORES">VALORES</a>
-     </li>
-
-      <li><a href="#COBERTURA">COBERTURA</a></li>
-    
   
+  <nav>
+    <div class="logo">Mi Sitio</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <div class="menu" id="menu">
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+      <a href="#">Acerca</a>
+    </div>
+  </nav>
 
-    <li class="nav-item dropdown" >
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-        aria-expanded="false">JORNADAS</a>
-      <ul class="dropdown-menu" style="background-color: rgb(173, 173, 88);">
-        <li><a class="dropdown-item" href="#">MATUTINA</a></li>
-        <li><a class="dropdown-item" href="#">VERPERTINA</a></li>
-        <li><a class="dropdown-item" href="#">PRIMARIA</a></li>
-        <li><a class="dropdown-item" href="#">PLAN FIN</a></li>
-      </ul>
-    </li>
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
 
-</nav>
-  
-  
+
+
 
   <app-root></app-root>
   <router-outlet></router-outlet>
