@@ -1,54 +1,56 @@
 nav {
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  background-color: #c8ca5b;
+  color: rgb(22, 21, 21);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0%;
+}
 
-    .logo {
-      font-size: 20px;
-      font-weight: bold;
-    }
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
 
-    .menu {
-      display: flex;
-      gap: 20px;
-    }
+.menu {
+  display: flex;
+  gap: 20px;
+}
 
-    .menu a {
-      color: white;
-      text-decoration: none;
-      padding: 8px;
-      transition: background 0.3s;
-    }
+.menu a {
+  color: rgb(10, 9, 9);
+  text-decoration: none;
+  padding: 8px;
+  transition: background 0.3s;
+  font-size: 18px;
+}
 
-    .menu a:hover {
-      background-color: #555;
-      border-radius: 4px;
-    }
+.menu a:hover {
+  background-color: #f7da4a;
+  border-radius: 4px;
+}
 
-    .menu-toggle {
-      display: none;
-      font-size: 26px;
-      cursor: pointer;
-    }
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
 
-    @media (max-width: 768px) {
-      .menu {
-        display: none;
-        flex-direction: column;
-        background-color: #333;
-        width: 100%;
-        padding-top: 10px;
-      }
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #aca24b;
+    width: 100%;
+    padding-top: 10px;
+  }
 
-      .menu.show {
-        display: flex;
-      }
+  .menu.show {
+    display: flex;
+  }
 
-      .menu-toggle {
-        display: flex;
-      }
-      }
+  .menu-toggle {
+    display: flex;
+  }
+}
