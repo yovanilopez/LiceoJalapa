@@ -117,7 +117,24 @@
 
 }
 
+.secction1 {
+    text-align: center;
+    position: relative;
+   
+    background: url(https://i.ibb.co/SJCsNhz/cooegio.jpg);
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.secction1 .container {
+
+    background: rgba(255, 255, 255, 0.61);
+    
+
+}
 
 .secction4 {
     position: relative;
