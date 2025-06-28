@@ -1,27 +1,25 @@
-* {
-  height: 80px;
-  position: relative;
-  width: 100%;
-  
-}
 nav {
-  background-color: #ecea53cb;
-  color: black;
-  padding: 15px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+  justify-content: space-between;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-
-a {
+nav a {
+  color: white;
   text-decoration: none;
-  color: black;
+  padding: 10px;
 }
 
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+  }
+}
