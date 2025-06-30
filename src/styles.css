@@ -1,5 +1,5 @@
 nav {
-  background-color: #c8ca5b;
+  background-color:rgb(205, 219, 0);;
   color: rgb(22, 21, 21);
   padding: 10px 20px;
   display: flex;
@@ -27,7 +27,7 @@ nav {
 }
 
 .menu a:hover {
-  background-color: #f7da4a;
+  background-color: rgb(184, 151, 7);
   border-radius: 4px;
 }
 
@@ -41,7 +41,7 @@ nav {
   .menu {
     display: none;
     flex-direction: column;
-    background-color: #aca24b;
+    background-color: rgb(205, 219, 0);
     width: 100%;
     padding-top: 10px;
   }
@@ -54,3 +54,16 @@ nav {
     display: flex;
   }
 }
+
+
+@media (max-width: 768px) {
+  .btn-group {
+    width: 90%; /* casi todo el ancho disponible */
+    font-size: 1em;
+    margin: 10px auto; /* centrado con margen */
+    display: block;
+    margin-left: -0%;
+    
+    
+  }
+ }
