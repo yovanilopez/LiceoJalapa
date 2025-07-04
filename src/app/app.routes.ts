@@ -10,8 +10,8 @@ import { FinsemanaComponent } from './components/finsemana/finsemana.component';
 export const routes: Routes = [
     {path:"", redirectTo:"bienvenida" ,pathMatch:"full"} ,
     {path:"bienvenida", component:BienvenidaComponent } ,
-    {path:"4toperitocompu", component:PeritocompuComponent } ,
-    {path:"4tobachillcompu", component:BchilleratocompuComponent } ,
+    {path:"Vespertina", component:PeritocompuComponent } ,
+    {path:"Matutina", component:BchilleratocompuComponent } ,
     {path:"primaria", component:PrimariaComponent } ,
     {path:"finsemana", component:FinsemanaComponent } ,
 
